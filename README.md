@@ -1,4 +1,4 @@
-# Saenka2 Oyunu
+# saenkaGame Oyunu
 
 ## Gereksinimler
 
@@ -17,8 +17,8 @@
 
 1. Projeyi klonlayın:
 ```bash
-git clone https://github.com/kullaniciadi/saenka2.git
-cd saenka2
+git clone https://github.com/kullaniciadi/saenkaGame.git
+cd saenkaGame
 ```
 
 2. Gradle ile bağımlılıkları yükleyin:
@@ -37,7 +37,7 @@ Oyunu başlatmak için aşağıdaki komutlardan birini kullanabilirsiniz:
 veya
 
 ```bash
-java -jar build/libs/saenka2.jar
+java -jar build/libs/saenkaGame.jar
 ```
 
 ## Geliştirme Ortamı Kurulumu
@@ -72,8 +72,4 @@ Eğer oyun başlatılırken hata alırsanız:
 
 Sorun veya önerileriniz için:
 - GitHub Issues
-- E-posta: [e-posta adresiniz]
-
-## Lisans
-
-Bu proje [lisans türü] altında lisanslanmıştır.
+- E-posta: [atillaytkn0816@gmail.com]
