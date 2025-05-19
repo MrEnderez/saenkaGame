@@ -1,33 +1,79 @@
-# saenkaGame
+# Saenka2 Oyunu
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+## Gereksinimler
 
-This project was generated with a template including simple application launchers and a main class extending `Game` that sets the first screen.
+### Sistem Gereksinimleri
+- JDK 17 veya üzeri
+- Gradle 8.0 veya üzeri
+- En az 4GB RAM
+- 500MB boş disk alanı
 
-## Platforms
+### Kütüphaneler ve Bağımlılıklar
+- JavaFX 17
+- Gradle Wrapper
+- JUnit 5 (test için)
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+## Kurulum
 
-## Gradle
+1. Projeyi klonlayın:
+```bash
+git clone https://github.com/kullaniciadi/saenka2.git
+cd saenka2
+```
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+2. Gradle ile bağımlılıkları yükleyin:
+```bash
+./gradlew build
+```
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+## Çalıştırma
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+Oyunu başlatmak için aşağıdaki komutlardan birini kullanabilirsiniz:
+
+```bash
+./gradlew run
+```
+
+veya
+
+```bash
+java -jar build/libs/saenka2.jar
+```
+
+## Geliştirme Ortamı Kurulumu
+
+1. IntelliJ IDEA, Eclipse veya VS Code gibi bir IDE kurun
+2. JDK 17'yi yükleyin
+3. IDE'de projeyi açın
+4. Gradle sync işlemini gerçekleştirin
+
+## Oyun Kontrolleri
+
+- W/A/S/D veya Yön Tuşları: Karakteri hareket ettirme
+- SPACE: Zıplama
+- ESC: Oyun menüsü
+- ENTER: Seçim yapma
+
+## Hata Giderme
+
+Eğer oyun başlatılırken hata alırsanız:
+
+1. JDK sürümünüzün 17 veya üzeri olduğundan emin olun
+2. Gradle cache'ini temizleyin:
+```bash
+./gradlew clean
+```
+3. Projeyi yeniden derleyin:
+```bash
+./gradlew build
+```
+
+## İletişim
+
+Sorun veya önerileriniz için:
+- GitHub Issues
+- E-posta: [e-posta adresiniz]
+
+## Lisans
+
+Bu proje [lisans türü] altında lisanslanmıştır.
