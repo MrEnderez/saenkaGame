@@ -17,7 +17,7 @@
 
 1. Projeyi klonlayın:
 ```bash
-git clone https://github.com/kullaniciadi/saenkaGame.git
+git clone https://github.com/MrEnderez/saenkaGame.git
 cd saenkaGame
 ```
 
