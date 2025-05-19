@@ -77,8 +77,11 @@ Sorun veya önerileriniz için:
 ## Ekibimiz
 
 **[Osman Yetkin](https://github.com/osmanveyetkin)] - Ekip Lideri**
+
 **Atilla Talha Aytekin - Backend**
+
 **Mahmocan Başar - Backend**
+
 **Muhammed Emin Dönmez -UI Frontend**
 
 
