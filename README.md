@@ -76,7 +76,7 @@ Sorun veya önerileriniz için:
 
 ## Ekibimiz
 
-**[Osman Yetkin](https://github.com/osmanveyetkin)] - Ekip Lideri**
+** [Osman Yetkin](https://github.com/osmanveyetkin)] - Ekip Lideri**
 
 **Atilla Talha Aytekin - Backend**
 
