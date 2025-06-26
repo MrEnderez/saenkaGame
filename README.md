@@ -3,7 +3,7 @@
 ## Gereksinimler
 
 ### Sistem Gereksinimleri
-- JDK 17 veya üzeri
+- JDK 17 ya da üzeri
 - Gradle 8.0 veya üzeri
 - En az 4GB RAM
 - 500MB boş disk alanı
